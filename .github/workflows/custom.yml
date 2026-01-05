@@ -1,4 +1,3 @@
-
 name: Custom Workflow
  
 on:
@@ -34,4 +33,3 @@ jobs:
       # 4) Run tests
       - name: Run unit tests
         run: npm test --ignore-scripts
-
