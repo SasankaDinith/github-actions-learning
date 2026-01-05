@@ -12,13 +12,16 @@
 ## Evidence
 
 ### Task 1: Hello World Workflow
-[Screenshot showing successful workflow run]
+
+![image](https://github.com/SasankaDinith/github-actions-learning/blob/db396a3f8f770977b96e27da8218ff7cd2257c3d/.github/submissions/Hello-world-workflow.png)
 
 ### Task 2: Push Trigger
-[Screenshot showing workflow triggered automatically on push]
+![image](https://github.com/SasankaDinith/github-actions-learning/blob/db396a3f8f770977b96e27da8218ff7cd2257c3d/.github/submissions/Task%202%20Understand%20Workflow%20Triggers.png)
 
 ### Task 3: Local Tests
-[Screenshot showing npm test output - all passing]
+![image](https://github.com/SasankaDinith/github-actions-learning/blob/db396a3f8f770977b96e27da8218ff7cd2257c3d/.github/submissions/Task%203%20Build%20and%20Test%20Locally.png)
+
+![image](https://github.com/SasankaDinith/github-actions-learning/blob/db396a3f8f770977b96e27da8218ff7cd2257c3d/.github/submissions/Task%203%20Build%20and%20Test%20Locally%20-%20Verification.png)
 
 ## Notes
 Any challenges faced or additional context.
