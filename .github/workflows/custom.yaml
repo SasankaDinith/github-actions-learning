@@ -1,0 +1,38 @@
+
+name: Custom Workflow
+
+on:
+  push:
+    branches: [develop]
+
+jobs:
+  build-and-test:
+    runs-on: ubuntu-latest
+
+    defaults:
+      run:
+        # Ensure all run commands execute inside the sample-app directory
+        working-directory: sample-app
+
+    steps:
+      # 1) Check out the repository
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      # 2) Set up Node.js 18
+      - name: Set up Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+          cache-dependency-path: sample-app/package-lock.json
+
+      # 3) Install dependencies
+      - name: Install dependencies
+        run: npm install
+
+      # 4) Run tests
+      - name: Run unit tests
+        run: npm test --ignore-scripts
+``
+
