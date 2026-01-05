@@ -34,6 +34,7 @@ jobs:
       # 4) Run tests
       - name: Run unit tests
         run: npm test --ignore-scripts
+<<<<<<< HEAD
 
 
 
@@ -43,3 +44,5 @@ jobs:
 
 
 
+=======
+>>>>>>> 8992a028fc6bd558c9975b9c0d2f4f4eca1548ea
