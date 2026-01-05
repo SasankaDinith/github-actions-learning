@@ -26,10 +26,10 @@ jobs:
           cache: 'npm'
           cache-dependency-path: sample-app/package-lock.json
 
-      # 3) Install dependencies
+   
       - name: Install dependencies
         run: npm install
 
-      # 4) Run tests
+  
       - name: Run unit tests
         run: npm test --ignore-scripts
